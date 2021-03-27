@@ -1,0 +1,57 @@
+* {
+    font-family: 'Hi Melody', cursive;
+}
+
+
+section {
+    width : 70%;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.bar {
+    height: 50px;
+    width: 5px;
+    background-color: #BBBBBB;
+    border: 5px solid black;
+    margin-top: 5px;
+    transition: 2s;
+}
+
+body {
+    background: #ddd;
+  }
+  
+  .container {
+    margin-top: 20px;
+  }
+  
+  /*--------------------------------------------------------------
+  # Table
+  --------------------------------------------------------------*/
+  table {
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1), 0px 10px 20px rgba(0, 0, 0, 0.05),
+      0px 20px 20px rgba(0, 0, 0, 0.05), 0px 30px 20px rgba(0, 0, 0, 0.05);
+    font-size: 20px;
+    width : 100%;
+  }
+  
+  th {
+    color: #ffffff;
+    background: #39a2fb;
+
+  }
+  
+  tr {
+    background: #fff;
+  }
+  
+  tr:hover {
+    background: #f4f4f4;
+  }
+  
+  td {
+    word-wrap: break-word;
+    border-bottom: 1px solid #ccc;
+  }
+  
